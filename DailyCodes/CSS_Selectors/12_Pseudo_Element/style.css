@@ -1,0 +1,27 @@
+.intro::first-letter {
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.description::first-line {
+    color: blue;
+    font-weight: bold;
+}
+
+.message::before {
+    content: "★ ";
+    color: orange;
+    font-size: 22px;
+}
+
+.message::after {
+    content: " ✓";
+    color: green;
+    font-size: 22px;
+}
+
+input::placeholder {
+    color: gray;
+    font-style: italic;
+}

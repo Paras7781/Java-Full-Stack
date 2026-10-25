@@ -1,0 +1,25 @@
+h2:hover {
+    color: blue;
+    font-size: 24px;
+}
+input:focus {
+    border: 2px solid blue;
+    outline: none;
+}
+
+p:first-child {
+    color: red;
+    font-weight: bold;
+}
+
+li:nth-child(2) {
+    color: blue;
+}
+
+li:nth-child(even) {
+    background-color: lightyellow;
+}
+
+p:last-child {
+    color: green;
+}

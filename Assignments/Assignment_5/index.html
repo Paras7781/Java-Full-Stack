@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Online Job Application Portal</title>
+</head>
+<body>
+    <h1>Online Job Application Portal</h1>
+    <p>Apply for your dream job!</p>
+    <hr>
+
+    <form>
+        <fieldset>
+            <legend>1. Personal Information</legend>
+
+            <p>
+                <label>Full Name:</label>
+                <input type="text">
+            </p>
+            <p>
+                <label>Create Password:</label>
+                <input type="password" required>
+            </p>
+            <p>
+                <label>Email Address:</label>
+                <input type="email" required>
+            </p>
+            <p>
+                <label>Mobile Number:</label>
+                <input type="number">
+            </p>
+            <p>
+                <label>Age:</label>
+                <input type="number" min="16" max="100">
+            </p>
+            <p>
+                <label>Date of Birth:</label>
+                <input type="date">
+            </p>
+
+            <p>Gender:</p>
+            <input type="radio">
+            <label>Male</label>
+
+            <input type="radio">
+            <label>Female</label>
+
+            <input type="radio">
+            <label>Other</label>
+
+            <p>
+                <label>Current Address:</label><br>
+                <textarea></textarea>
+            </p>
+            <p>
+                <label>Profile Photograph:</label>
+                <input type="file">
+            </p>
+            <p>
+                <label>Portfolio Website:</label>
+                <input type="url">
+            </p>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>2. Educational Background</legend>
+
+            <p>
+                <label>Highest Qualification:</label>
+                <select>
+                    <option>-- Select Qualification --</option>
+                    <option>HSC</option>
+                    <option>Diploma</option>
+                    <option>Bachelor's Degree</option>
+                    <option>Master's Degree</option>
+                    <option>PhD</option>
+                </select>
+            </p>
+            <p>
+                <label>College Name:</label>
+                <input type="text">
+            </p>
+            <p>
+                <label>Graduation Month:</label>
+                <input type="month">
+            </p>
+            <p>
+                <label>Preferred Internship Week:</label>
+                <input type="week">
+            </p>
+            <p>
+                <label>Graduation Year:</label>
+                <input type="number" min="1950" max="2100">
+            </p>
+
+            <p>Certifications Completed:</p>
+            <input type="checkbox">
+            <label>Java</label>
+
+            <input type="checkbox">
+            <label>Python</label>
+
+            <input type="checkbox">
+            <label>Web Development</label>
+
+            <p>
+                <label>
+                    Preferred Interview Date and Time:
+                </label>
+                <input type="datetime-local">
+            </p>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>3. Job Preferences</legend>
+
+            <p>
+                <label>Search Job Role:</label>
+                <input type="search">
+            </p>
+            <p>
+                <label>Select Job Role:</label>
+                <select>
+                    <option>-- Select Job Role --</option>
+                    <option>Web Developer</option>
+                    <option>Software Developer</option>
+                    <option>Data Analyst</option>
+                    <option>Intern</option>
+                </select>
+            </p>
+
+            <p>Employment Type:</p>
+            <input type="radio">
+            <label>Full Time</label>
+
+            <input type="radio">
+            <label>Part Time</label>
+
+            <input type="radio">
+            <label>Internship</label>
+
+            <p>
+                <label>Expected Monthly Salary (INR):</label>
+                <input type="number">
+            </p>
+            <p>
+                <label>Preferred Interview Time:</label>
+                <input type="time">
+            </p>
+            <p>
+                <label>Preferred Theme Color:</label>
+                <input type="color">
+            </p>
+            <p>
+                <label>Coding Confidence (0-10):</label>
+                <input type="range">
+            </p>
+            <p>
+                <label>LinkedIn Profile:</label>
+                <input type="url">
+            </p>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>4. Technical Skills and Experience</legend>
+
+            <p>
+                <label>Years of Experience:</label>
+                <input type="number" min="0" max="60">
+            </p>
+            <p>
+                <label>Preferred Technology:</label>
+                <input type="text">
+            </p>
+            <p>
+                <label>Technical Skills:</label><br>
+                <select>
+                    <option>HTML</option>
+                    <option>CSS</option>
+                    <option>JavaScript</option>
+                    <option>Java</option>
+                    <option>Python</option>
+                    <option>SQL</option>
+                </select>
+            </p>
+            <p>Use Ctrl (Windows) or Command (Mac) to select multiple skills.</p>
+            <p>
+                <label>Upload Resume (PDF only):</label>
+                <input type="file">
+            </p>
+            <p>
+                <label>Upload Certificates:</label>
+                <input type="file">
+            </p>
+            <p>
+                <label>Why should we hire you?</label><br>
+                <textarea></textarea>
+            </p>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>5. Skill Assessment and Application Status</legend>
+
+            <p>
+                <label>HTML Skill Level:</label>
+            </p>
+            <input type="range" min="0" max="100" value="70">
+
+            <p>
+                <label>Application Completion:</label>
+            </p>
+            <input type="range" min="0" max="100" value="80">
+
+            <p><strong>Application Status:</strong> Ready for submission</p>
+
+            <input type="checkbox"required>
+            <label>
+                I confirm that the information provided is correct.
+            </label>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Submit Application">
+            <input type="reset" value="Reset Form">
+            <input type="button" value="Help">
+            <input type="button" value="Preview Application">
+        </p>
+    </form>
+
+    <h2>Additional Examples</h2>
+
+    <fieldset>
+        <legend>Search Available Jobs</legend>
+        <form>
+            <label>Job Title:</label>
+            <input type="text">
+            <input type="submit" value="Search Jobs">
+        </form>
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+        <legend>Read-only and Disabled Fields</legend>
+        <p>
+            <label>Application ID:</label>
+            <input type="text">
+        </p>
+        <p>
+            <label>Company:</label>
+            <input type="text">
+        </p>
+        <input type="button" value="Update Profile">
+    </fieldset>
+
+    <p>Online Job Application Portal</p>
+    <p>HTML Forms Practice Assignment</p>
+</body>
+</html>
